@@ -13,7 +13,7 @@
 
     <record id="action_certification_bodies" model="ir.actions.act_window">
         <field name="name">Certification Bodies</field>
-        <field name="model">res.partner</field>
+        <field name="res_model">res.partner</field>
         <field name="domain">[('is_certification_body', '=', True)]</field>
         <field name="view_mode">tree,form</field>
     </record>
