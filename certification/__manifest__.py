@@ -21,7 +21,10 @@
              'views/certification_view.xml',
              'views/standard_view.xml',
              'views/res_partner_view.xml',
-             'views/certification_bodies_view.xml'],
+             'views/certification_bodies_view.xml',
+             'reports/certification_report.xml',
+             'reports/report_certification_pdf.xml',
+             'reports/certification_template_pdf.xml'],
     "demo": ['demo/certification_data.xml'],
 
 }
