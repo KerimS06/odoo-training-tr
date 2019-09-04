@@ -16,8 +16,9 @@
     "depends": [
         "base",
     ],
-    "data": ['security/ir.model.access.csv',
-            'views/certification_view.xml',
+    "data": ['security/certification_security.xml',
+             'security/ir.model.access.csv',
+             'views/certification_view.xml',
              'views/standard_view.xml',
              'views/res_partner_view.xml',
              'views/certification_bodies_view.xml'],
